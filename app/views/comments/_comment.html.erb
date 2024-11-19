@@ -1,0 +1,13 @@
+<p>
+  <strong>Commenter:</strong>
+  <%= comment.commenter %>
+</p>
+<p>
+  <strong>Comment:</strong>
+  <%= comment.body %>
+</p>
+<p>
+  <% if comment.user == current_user %>  <!-- Solo el dueño del comentario puede eliminarlo -->
+    <%= button_to 'Destroy Comment', [comment.article, comment], method: :delete, data: { confirm: '¿Estás seguro de que deseas eliminar este comentario?' } %>
+  <% end %>
+</p>

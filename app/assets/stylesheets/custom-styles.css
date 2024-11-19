@@ -1,0 +1,135 @@
+/* Fondo de la página */
+body {
+  background-color: #F1F6F9; /* Fondo suave en azul claro */
+  color: #333; /* Color del texto */
+}
+
+/* Encabezado */
+h1 {
+  color: #FF6F91; /* Un rosa suave y brillante */
+}
+
+/* Contenedor de la tabla */
+.table-container {
+  background-color: #FFCCE5; /* Fondo rosado pastel para la tabla */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Estilo de la tabla */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  color: #333;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #FFB3C1; /* Borde rosado suave */
+}
+
+.table-bordered {
+  border: 1px solid #FFB3C1;
+}
+
+.table thead th {
+  background-color: #A3D8F4; /* Azul suave para el encabezado de la tabla */
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Botones */
+.btn {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Colores específicos para botones */
+.btn-info {
+  background-color: #B0E0E6; /* Azul claro suave */
+  border: none;
+}
+
+.btn-warning {
+  background-color: #FFB6C1; /* Rosa claro */
+  border: none;
+}
+
+.btn-danger {
+  background-color: #FF6F91; /* Rosa brillante */
+  border: none;
+}
+
+.btn-success {
+  background-color: #A3D8F4; /* Azul claro */
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #E0BBE4; /* Rosa pastel suave */
+  border: none;
+}
+
+/* Estilo del enlace de "Nuevo artículo" */
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Fondo del formulario */
+.form-container {
+  background-color: #FAD0C4; /* Fondo rosado suave para el formulario */
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Estilo del formulario */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  color: #e22828; /* Etiquetas de formulario en color oscuro */
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #fff;
+  color: #b80f0f;
+  border: 1px solid #FFB3C1;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  border-color: #FF6F91; /* Rosa brillante al hacer foco */
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 111, 145, 0.5); /* Sombra suave en rosa */
+}
+
+/* Botones en el formulario */
+.btn-success {
+  background-color: #A3D8F4; /* Azul suave */
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #E0BBE4; /* Rosa pastel suave */
+  border: none;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
